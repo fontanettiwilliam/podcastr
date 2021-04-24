@@ -23,16 +23,19 @@
 
 [data-theme="dark"] {
   --white: #0a0a0a;
+
   --gray-50: #333;
   --gray-100: #292929;
   --gray-200: #afb2b1;
   --gray-500: #808080;
   --gray-800: #b5b5b5;
-  --green-500: #4fc383;
-  --purple-300: #ba9cff;
-  --purple-400: #a683f9;
-  --purple-500: #916ce6;
-  --purple-800: #7a57ca;
+
+  --green-500: #92e6a6;
+
+  --purple-300: ##d7c5fe;
+  --purple-400: #d2befb;
+  --purple-500: #b89fef;
+  --purple-800: #9c7fda;
 }
 
 @media (max-width: 1080px) {
