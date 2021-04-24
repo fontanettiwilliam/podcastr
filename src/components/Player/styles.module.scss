@@ -13,7 +13,7 @@
   header {
     display: flex;
     align-items: center;
-    gap: 1rem; //não é suportado para muitos navegadores
+    gap: 1rem;
   }
 
   strong {
@@ -103,7 +103,7 @@
   button {
     background-color: transparent;
     border: 0;
-    font-size: 0; //centraliza a imagem de dentro do botão
+    font-size: 0;
 
     transition: filter 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 
@@ -117,12 +117,12 @@
     }
 
     &.isActive {
-      filter: invert(0.35) sepia(1) saturate(3) hue-rotate(100deg); //gambiarra pra mudar de cor
+      filter: invert(0.35) sepia(1) saturate(3) hue-rotate(100deg);
     }
 
     &.isActive:hover {
       filter: brightness(0.6) invert(0.35) sepia(1) saturate(3)
-        hue-rotate(100deg); //gambiarra pra mudar de cor
+        hue-rotate(100deg);
     }
 
     &.playButton {
